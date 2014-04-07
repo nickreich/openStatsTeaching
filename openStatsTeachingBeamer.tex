@@ -8,6 +8,7 @@
 %	This path assumes the preamble is in the parent directory,
 %		modify this if that changes.
 \input{standard_beamer_preamble}
+\usepackage{multicol}
 
 %	The following variables are assumed by the standard preamble:
 %	Global variable containing module name:
@@ -47,17 +48,39 @@
 
 \begin{frame}{Many degrees of Openness}
 
+\begin{multicols}{2}
+\includegraphics[height = 1in]{OAlogo.png}
+
+\columnbreak
+
 \begin{block}{Common characteristics}
 \begin{itemize}
 	\item Online
+\pause
 	\item No access restrictions
+\pause
 	\item No cost
+\pause
 	\item Free-to-modify
 \end{itemize}
-\begin{flushright}
-  	 \includegraphics[height = 1in]{OAlogo.png}
-\end{flushright}
 \end{block}
+\end{multicols}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Many degrees of Openness}
+
+\includegraphics[height = 1.5in]{FOAS.png}
+
+\begin{itemize}
+	\item Free software
+\pause
+	\item Open access publishing
+\pause
+	\item Open source educational resources
+\end{itemize}
 
 \end{frame}
 
