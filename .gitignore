@@ -7,3 +7,5 @@
 *.snm
 *.synctex.gz
 *.toc
+*.aux
+*.out
